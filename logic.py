@@ -68,7 +68,6 @@ def calculate_autocorrelation(power_load, max_lag=None):
     
     # Робимо max_lag динамічним
     if max_lag is None:
-        # Гарне значення за замовчуванням для ACF-графіка
         max_lag = min(48, n // 2) 
         
     if max_lag >= n:
