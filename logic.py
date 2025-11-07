@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd # Потрібна нова бібліотека
+import pandas as pd
 from datetime import datetime, timedelta
 
 def load_test_data():
